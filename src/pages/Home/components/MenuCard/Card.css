@@ -1,0 +1,123 @@
+.wrapper {
+    margin: auto;
+    background-color: var(--yellow);
+    display: flex;
+    flex-direction: column;
+}
+
+.container-card{
+    margin: auto;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.link-menu{
+    text-decoration: none;
+    color: var(--darkPurple);
+}
+
+.link-menu :hover{
+    text-decoration: none;
+    color: black;
+}
+
+.title-menu{
+    color: var(--darkPurple);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.title-section{
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    color: var(--darkPurple);
+    background-color: var(--yellow);
+    margin: 0;
+}
+
+@media (min-width: 365px) {
+    .container-card{
+        margin: auto;
+        padding: 2rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        font-size: 24px;
+        /* border: solid 1px var(--marron); */
+    }
+
+    .body-menu-card{
+        margin: auto;
+        color: black;
+        grid-column: 1 / 2;
+        grid-row: 1;
+    }
+    
+    .imagen-menu-card{
+        grid-column: 2/3;
+        width: 100%;
+    }
+}
+
+.body-menu-card{
+    margin: auto;
+    color: black;
+}
+
+.imagen-menu-card{
+    width: 100%;
+}
+
+.add-button{
+    background-color: var(--marron);
+    color: var(--white);
+    font-size: 20px;
+    border-radius: 15px;
+    border: none;
+    padding: 0.5rem;
+}
+
+.add-button:hover{
+    opacity: 0.6;
+}
+
+.remove-button{
+    background-color: var(--marron);
+    color: var(--white);
+    font-size: 20px;
+    border-radius: 15px;
+    border: none;
+    padding: 0.5rem;
+    margin-bottom: 10px;
+}
+
+.container-menu-card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+}
+
+.resume-menu-card{
+    margin: auto;
+}
+
+.card-menu-small{
+    border:  solid 1px var(--marron);
+    width: 60%;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.menu-final-container{
+    background-color: var(--yellow);
+}
+
+.resume-menu-card{
+    padding: 1rem;
+}
+
+.card-menu-img{
+    margin-top: 10px;
+}

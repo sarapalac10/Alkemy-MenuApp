@@ -1,0 +1,29 @@
+.title-containter{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--yellow);
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-title{
+    font-size: 25px;
+    color: var(--darkPurple);
+}
+
+h1 { 
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    color: var(--darkPurple);
+}
+
+@media (min-width: 365px) {
+    .icon-title{
+        font-size: 45px;
+    }
+    h1 { 
+        font-size: 45px;
+    }
+}
