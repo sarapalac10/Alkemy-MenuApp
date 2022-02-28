@@ -10,9 +10,9 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route exact path='/' element={<Login />}/>
-          <Route path='/home' element={<Home />}/>
-          <Route path='/home/menudaily' element={<Menu />}/>
+          <Route exact path='/Alkemy-MenuApp' element={<Login />}/>
+          <Route path='/Alkemy-MenuApp/home' element={<Home />}/>
+          <Route path='/Alkemy-MenuApp/home/menudaily' element={<Menu />}/>
         </Routes>
       </BrowserRouter>
     </div>
