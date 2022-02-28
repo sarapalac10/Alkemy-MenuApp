@@ -25,7 +25,7 @@ const Login = (props) =>{
         if (form.email === validEmail && form.password === validPass) {
             alert("Welcome :D !")
             // props.history.push('../Home/Home.jsx')
-            navigate('../Alkemy-MenuApp/Home')
+            navigate('/Alkemy-MenuApp/Home')
         } else{
             alert("The email or the password is wrong")
         }
