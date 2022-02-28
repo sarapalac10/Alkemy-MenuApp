@@ -44,9 +44,7 @@ function CardFood() {
 
   function handleRemoveDishFromMenu(dish) {
     setMenu((existingDishes) => {
-      const filteredMenuItems = existingDishes.filter(
-        (menuItem) => menuItem.id !== dish.id
-      );
+      const filteredMenuItems = existingDishes.filter( (menuItem) => menuItem.id !== dish.id);
 
       return filteredMenuItems;
     });

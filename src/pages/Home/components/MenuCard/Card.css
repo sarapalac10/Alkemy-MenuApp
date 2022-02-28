@@ -94,9 +94,21 @@
 }
 
 .container-menu-card{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-menu-img{
+    margin-top: 10px;
+    width: 100%;
+}
+
+@media (min-width: 400px) {
+    .container-menu-card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 5px;
+    }
 }
 
 .resume-menu-card{
@@ -118,6 +130,4 @@
     padding: 1rem;
 }
 
-.card-menu-img{
-    margin-top: 10px;
-}
+
