@@ -25,7 +25,7 @@ function Menu({ dishes, onClick }) {
       {dishes.map((dish, i) => (
       <div key={`menu-${i}`} >              
           <Card className='card-menu-small'>
-            <Card.Img variant="top" src={dish.image} className="card-menu-img" style={{ width: '10rem' }} />
+            <Card.Img variant="top" src={dish.image} className="card-menu-img"/>
             <Card.Body>
               <Card.Title><strong>{dish.title}</strong></Card.Title>
               <Card.Text>

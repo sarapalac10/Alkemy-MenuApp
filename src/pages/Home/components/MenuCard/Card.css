@@ -37,7 +37,7 @@
     margin: 0;
 }
 
-@media (min-width: 365px) {
+@media (min-width: 400px) {
     .container-card{
         margin: auto;
         padding: 2rem;
@@ -68,6 +68,7 @@
 
 .imagen-menu-card{
     width: 100%;
+    margin-top: auto ;
 }
 
 .add-button{
@@ -100,7 +101,7 @@
 
 .card-menu-img{
     margin-top: 10px;
-    width: 100%;
+    width: 80%;
 }
 
 @media (min-width: 400px) {

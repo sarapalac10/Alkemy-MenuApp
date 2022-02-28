@@ -32,10 +32,12 @@ function CardFood() {
         if (veganDishes >= 2 && dish.vegan) {
             return existingDishes
         }
+
         const mealDishes = existingDishes.filter(menuItem => !menuItem.vegan).length
         if (mealDishes >= 2 && !dish.vegan) {
             return existingDishes
         }
+
         const finalDishes = [...existingDishes, dish]
         return finalDishes
 
