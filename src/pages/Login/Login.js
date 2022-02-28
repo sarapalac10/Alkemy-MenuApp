@@ -3,7 +3,7 @@ import Label from "./components/Label/Label";
 import Title from "./components/Title/Title";
 import './Login.css'
 import '../Login/components/Title/Title.css'
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Login = (props) =>{
     const navigate = useNavigate()
