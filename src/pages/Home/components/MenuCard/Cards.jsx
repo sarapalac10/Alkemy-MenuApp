@@ -44,16 +44,13 @@ function CardFood() {
 
   function handleRemoveDishFromMenu(dish) {
     setMenu((existingDishes) => {
-        const selectDish = dish.id;
-        const newDishes = existingDishes.filter(aDish => aDish.id !== selectDish )
-        console.log('newDishes', newDishes);
-        if (newDishes){
-            return existingDishes
-        }
+      const filteredMenuItems = existingDishes.filter(
+        (menuItem) => menuItem.id !== dish.id
+      );
 
-        const finalDishes = [...existingDishes, dish]
-        return finalDishes
-        });
+      return filteredMenuItems;
+    });
+
     // console.log(`remove ${JSON.stringify(dish.id)}`);
   }
 
