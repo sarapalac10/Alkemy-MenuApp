@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Alkemy-MenuApp/static/css/main.ab86c11b.css",
+    "main.js": "/Alkemy-MenuApp/static/js/main.39254a73.js",
+    "index.html": "/Alkemy-MenuApp/index.html",
+    "main.ab86c11b.css.map": "/Alkemy-MenuApp/static/css/main.ab86c11b.css.map",
+    "main.39254a73.js.map": "/Alkemy-MenuApp/static/js/main.39254a73.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab86c11b.css",
+    "static/js/main.39254a73.js"
+  ]
+}
