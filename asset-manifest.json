@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Alkemy-MenuApp/static/css/main.3cc07bab.css",
-    "main.js": "/Alkemy-MenuApp/static/js/main.39254a73.js",
+    "main.js": "/Alkemy-MenuApp/static/js/main.2a555f85.js",
     "index.html": "/Alkemy-MenuApp/index.html",
     "main.3cc07bab.css.map": "/Alkemy-MenuApp/static/css/main.3cc07bab.css.map",
-    "main.39254a73.js.map": "/Alkemy-MenuApp/static/js/main.39254a73.js.map"
+    "main.2a555f85.js.map": "/Alkemy-MenuApp/static/js/main.2a555f85.js.map"
   },
   "entrypoints": [
     "static/css/main.3cc07bab.css",
-    "static/js/main.39254a73.js"
+    "static/js/main.2a555f85.js"
   ]
 }
