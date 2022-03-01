@@ -35,8 +35,13 @@ function CardFood() {
 
         const mealDishes = existingDishes.filter(menuItem => !menuItem.vegan).length
         if (mealDishes >= 2 && !dish.vegan) {
-            return existingDishes
-        }
+            return existingDishes 
+        };
+
+        const repeatDishes = existingDishes.find(existingDishes => existingDishes.id === dish.id)
+        if (repeatDishes){
+          return existingDishes
+        };
 
         const finalDishes = [...existingDishes, dish]
         return finalDishes
